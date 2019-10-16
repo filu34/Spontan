@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        link(rel="stylesheet", href="../css/style.css" type="text/css")
+        title Document
+    body
+        div#myDic.header
+           h2(style="margin: 5px") My To Do List
+           input#myInput(type="text", placeholder="Title...")
+           span(onclick="newElement()" class="addBtn") Add
+
+        ul#myUl
+            li Hit the gym
+            li.checked Pay bills
+            li Meet George
+            li Buy eggs
+            li Read a book
+            li Orginize office
+
+    script(src="../app.js")
